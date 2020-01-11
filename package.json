@@ -1,0 +1,59 @@
+{
+  "name": "@stephen-lewis/website",
+  "version": "0.1.0",
+  "description": "Stephen Lewis' personal website.",
+  "keywords": [
+    "personal website"
+  ],
+  "homepage": "https://stephen-lewis.me.uk/",
+  "bugs": {
+    "url": "https://github.com/stephen-lewis/website/issues"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Stephen Lewis",
+    "email": "mail@stephen-lewis.me.uk"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephen-lewis/website"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "lint": "eslint \"**/*.{js,jsx}\"",
+    "serve": "gatsby serve",
+    "start": "yarn develop",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "gatsby": "^2.18.12",
+    "gatsby-plugin-material-ui": "^2.1.6",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-preset-gatsby": "^0.2.27",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "gatsby-plugin-eslint": "^2.0.8",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.12.0"
+  },
+  "private": true
+}

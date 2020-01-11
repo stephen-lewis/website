@@ -1,0 +1,12 @@
+.cache
+package.json
+package-lock.json
+yarn.lock
+public
+.eslintrc
+.prettierrc
+/gatsby-config.js
+node_modules
+/jest.config.js
+/jest-preprocess.js
+/loadershim.js
