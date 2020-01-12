@@ -10,6 +10,14 @@ module.exports = {
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-manifest",
-    "gatsby-plugin-offline"
+    "gatsby-plugin-offline",
+    "gatsby-source-filesystem",
+    "gatsby-transformer-json",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: "./src/data/"
+      }
+    }
   ]
 };
