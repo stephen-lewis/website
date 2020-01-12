@@ -11,7 +11,6 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-manifest",
     "gatsby-plugin-offline",
-    "gatsby-source-filesystem",
     "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
