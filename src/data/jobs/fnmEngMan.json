@@ -1,0 +1,32 @@
+{
+  "title": "Engineering Manager",
+  "company": "Frazer-Nash Manufacturing Limited",
+  "companyUrl": "https://frazernash.com",
+  "to": "Present",
+  "from": "September 2016",
+  "description": [
+    "Frazer-Nash are a bespoke machinery design and build company primarily specialising confectionery and pet-food processing. Other sectors are also catered for where specialised equipment is required. The organisation also provides a subcontract manufacturing service for the science and aerospace industries, including an additive manufacturing offering.",
+    "I am responsible for the management of the company’s design and additive manufacturing departments. Working under the Engineering Director, I work with my team to produce bespoke equipment designs that satisfy our customer’s requirements. Additionally, I am tasked with managing the IT systems within our organisation, including maintenance of our ERP system and a custom addon."
+  ],
+  "roles": [
+    "Project management of design deliverables; management of work, planning, scheduling, design review, quality process monitoring, KPI setting and measurement.",
+    "Working with stakeholders and our production team to ensure customer requirements are effectively delivered, including initial proposal and quotation phases.",
+    "Technical authority on design projects, both current and historic (spares, customer support, etc.), including systems engineering, concept work, and design approvals.",
+    "Man-management of a multidisciplinary team of design engineers and a smaller team of additive manufacturing technicians, including training and performance reviews.",
+    "Continuous enhancement of documentation and control of processes in keeping with ISO-9001 requirements for design and project processes, and AS9100D for AM processes.",
+    "CE marking of machinery; technical file collation, machinery safety and hygiene risk assessment, documentation. ATEX and PED where necessary.",
+    "Mechanical design; 3D modelling and 2D detailing in Autodesk Inventor.",
+    "Management of additive manufacture (AM) functions, including health and safety of our ATEX rated metal powder handling zone.",
+    "Quotation of design projects and AM build-to-print work.",
+    "Management of company IT infrastructure; server maintenance, workstation maintenance, technical support, resource planning, budget management.",
+    "Management of the company’s ERP system, including custom addons."
+  ],
+  "achievements": [
+    "Overhauled the company’s design processes bringing them into line with ISO9001 requirements. Transitioning from a waterfall structure where each phase is conducted by a different engineer to a project-based approach promoting project ownership and improving overall product quality.",
+    "Led the transformation of a legacy designed-to-order machine into a modular system, reducing per-order design costs by 85%, lead-time by 30%, and manufacturing costs by 15%.",
+    "Developed a web-based interface to the company's ERP system that provides additional features including the tracking of parts and material within the workshop, production, and purchasing system via computer or iPad. This tool is now crucial in planning and project progress monitoring activities."
+  ],
+  "references": [
+    "Available upon request."
+  ]
+}

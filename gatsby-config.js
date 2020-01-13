@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://stephen-lewis.me.uk"
+    siteUrl: "https://stephen-lewis.me.uk",
+    title: "Stephen Lewis"
   },
   plugins: [
     "gatsby-plugin-eslint",
