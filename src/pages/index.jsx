@@ -3,7 +3,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Tab from '@material-ui/core/Tab';
 import Table from '@material-ui/core/Table';
@@ -34,6 +33,17 @@ const useStyles = makeStyles((theme) => createStyles({
   divider: {
     marginBottom: theme.spacing(1),
   },
+  link: {
+    color: theme.palette.primary,
+    textDecoration: 'none',
+    '&:hover': {
+      textDecoration: 'underline',
+    },
+  },
+  linkButton: {
+    color: theme.palette.primary,
+    textDecoration: 'none',
+  },
 }));
 
 function a11yProps(index) {
@@ -63,7 +73,6 @@ const Index = ({ data }) => {
           <Tab label="Overview" {...a11yProps(0)} />
           <Tab label="Curriculum Vitae" {...a11yProps(1)} />
           <Tab label="Portfolio" {...a11yProps(2)} />
-          <Tab label="Contact" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel index={0} value={value}>
@@ -73,13 +82,18 @@ const Index = ({ data }) => {
         <Box m={2}>
           <Grid container justify="space-between">
             <Grid item>
-              <Typography variant="h4">Experience</Typography>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+              <a name="experience">
+                <Typography variant="h4">Experience</Typography>
+              </a>
             </Grid>
             <Grid item>
-              <Button variant="outlined" size="large">
-                <KeyboardArrowDownIcon />
+              <a href="#education" className={classes.linkButton}>
+                <Button variant="outlined" size="large">
+                  <KeyboardArrowDownIcon />
                 &nbsp;Go to Education &amp; Qualification
-              </Button>
+                </Button>
+              </a>
             </Grid>
           </Grid>
         </Box>
@@ -89,15 +103,20 @@ const Index = ({ data }) => {
         <Box m={2}>
           <Grid container justify="space-between">
             <Grid item>
-              <Typography variant="h4">
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+              <a name="education">
+                <Typography variant="h4">
                 Education &amp; Qualification
-              </Typography>
+                </Typography>
+              </a>
             </Grid>
             <Grid item>
-              <Button variant="outlined" size="large">
-                <KeyboardArrowUpIcon />
-                &nbsp;Go to Experience
-              </Button>
+              <a href="#experience" className={classes.linkButton}>
+                <Button variant="outlined" size="large">
+                  <KeyboardArrowUpIcon />
+                  &nbsp;Go to Experience
+                </Button>
+              </a>
             </Grid>
           </Grid>
         </Box>
@@ -117,9 +136,9 @@ const Index = ({ data }) => {
                   University of Southampton
                 </Typography>
                 <Typography variant="subtitle1" align="right">
-                  <Link href="https://www.southampton.ac.uk/">
+                  <a href="https://www.southampton.ac.uk/" className={classes.link}>
                     https://www.southampton.ac.uk/
-                  </Link>
+                  </a>
                 </Typography>
               </Grid>
               <Grid item md={12}>
@@ -195,9 +214,9 @@ const Index = ({ data }) => {
                   Midhurst Grammar School
                 </Typography>
                 <Typography variant="subtitle1" align="right">
-                  <Link href="https://en.wikipedia.org/wiki/Midhurst_Grammar_School">
+                  <a href="https://en.wikipedia.org/wiki/Midhurst_Grammar_School" className={classes.link}>
                     https://en.wikipedia.org/wiki/Midhurst_Grammar_School
-                  </Link>
+                  </a>
                 </Typography>
               </Grid>
               <Grid item md={12}>
@@ -306,10 +325,7 @@ const Index = ({ data }) => {
         </Paper>
       </TabPanel>
       <TabPanel index={2} value={value}>
-        Portfolio
-      </TabPanel>
-      <TabPanel index={3} value={value}>
-        Contact
+        Update in progress
       </TabPanel>
     </div>
   );

@@ -2,7 +2,6 @@ import { createStyles, makeStyles, useTheme } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
@@ -13,6 +12,13 @@ const useStyles = makeStyles((theme) => createStyles({
   divider: {
     marginTop: theme.spacing(0.75),
     marginBottom: theme.spacing(1),
+  },
+  link: {
+    color: theme.palette.primary,
+    textDecoration: 'none',
+    '&:hover': {
+      textDecoration: 'underline',
+    },
   },
 }));
 
@@ -35,7 +41,7 @@ const Job = ({ job }) => {
             <Grid item md={6}>
               <Typography variant="h5" align="right">{job.company}</Typography>
               <Typography variant="subtitle1" align="right">
-                <Link href={job.companyUrl}>{job.companyUrl}</Link>
+                <a href={job.companyUrl} className={classes.link}>{job.companyUrl}</a>
               </Typography>
             </Grid>
             <Grid item md={12}>
