@@ -6,8 +6,9 @@ import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import {
-  Facebook as FacebookIcon, GitHub as GitHubIcon,
-  LinkedIn as LinkedInIcon, Mail as MailIcon,
+  Facebook as FacebookIcon,
+  GitHub as GitHubIcon,
+  LinkedIn as LinkedInIcon,
 } from '@material-ui/icons';
 import React from 'react';
 
@@ -55,9 +56,6 @@ const Header = () => {
             </IconButton>
             <IconButton size="large" color="inherit">
               <GitHubIcon fontSize="large" />
-            </IconButton>
-            <IconButton size="large" color="inherit">
-              <MailIcon fontSize="large" />
             </IconButton>
           </Toolbar>
         </Grid>
