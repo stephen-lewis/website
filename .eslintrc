@@ -4,7 +4,6 @@
     "airbnb/hooks"
   ],
   "env": {
-    "jest": true,
     "node": true,
     "browser": true
   },
