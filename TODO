@@ -1,24 +1,6 @@
-1) Clean up CSS
-    a) Consolidate
-    b) Rename to match best practices
-2) Enable 'Experience' functionality (JS)
-3) Add viewport breakpoints and associated layouts
-4) Clean up CSS
-    a) Consolidate
-    b) Rename to match best practices
-5) Move JS to separate file
-6) Migrate to Github
-    a) Move to package format (no CDN)
-    b) Merge into stephen-lewis/website
-7) Build contact page
-8) Publish
-9) Build and publish portfolio page
-10) General employment letters
-11) Portfolio content
-
-- Add CV download (contact removed)
-
-I've kind of jumped to 6... but I think it makes 2 and then 1 easier. Restructuring also helps 3 and 4 I think. 5
-becomes redundant; but could be replaced with 'make existing jQuery code work in React without needing jQuery'.
-
-Also CSS clean up is more like - remove from global and tie to component. There will still be some global though I think.
+1) Add rest of experience content - DONE
+1a) Contact Page!!
+2) Smooth scrolling
+3) Head / SEO
+4) Check
+5) Release

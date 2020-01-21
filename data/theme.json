@@ -1,0 +1,11 @@
+{
+  "primary-light": "#222222",
+  "primary-dark": "#eeeeee",
+  "secondary-light": "#000000",
+  "secondary-dark": "#bbbbbb",
+  "background-light": "#eeeeee",
+  "background-dark": "#222222",
+  "neutral": "#808080",
+  "neutral-highlight": "#ffffff",
+  "neutral-lowlight": "#000000"
+}

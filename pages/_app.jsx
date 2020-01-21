@@ -2,8 +2,7 @@ import React from 'react';
 
 import 'typeface-open-sans';
 
-import '../styles/reset.css';
-import '../styles/layout.css';
+import '../styles/global.css';
 
 const MyApp = ({ Component, pageProps }) => (
   <Component {...pageProps} />
