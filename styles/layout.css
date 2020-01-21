@@ -437,3 +437,7 @@ footer {
     -o-animation: fadein-wait 3s;
     animation: fadein-wait 3s;
 }
+
+.hidden {
+    display: none;
+}
